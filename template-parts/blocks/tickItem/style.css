@@ -1,0 +1,10 @@
+.tickitem-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tickitem-wrapper > div:first-child {
+  margin-right: 20px;
+  color: var(--wp--preset--color--british-racing-green);
+  font-size: 30px;
+}

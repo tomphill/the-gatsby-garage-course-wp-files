@@ -1,0 +1,16 @@
+{
+  "name": "tgg/carsearch",
+  "title": "Car search",
+  "description": "A widget to search for cars",
+  "category": "the-gatsby-garage",
+  "keywords": ["search", "car", "find"],
+  "icon": "search",
+  "apiVersion": 2,
+  "acf": {
+    "renderTemplate": "./carSearch.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "mode": false
+  }
+}

@@ -1,0 +1,20 @@
+.tgg-ctabutton {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: var(--wp--preset--color--bumblebee-yellow);
+  color: black;
+}
+
+.tgg-wrapper-left {
+  text-align: left;
+}
+.tgg-wrapper-center {
+  text-align: center;
+}
+.tgg-wrapper-right {
+  text-align: right;
+}

@@ -1,0 +1,8 @@
+.tgg-carprice {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+  font-family: var(--wp--preset--font-family--aboreto);
+  font-size: 30px;
+}

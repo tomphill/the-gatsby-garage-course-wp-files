@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--aboreto)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--poppins)"
+    }
+  },
+  "settings": {
+    "appearanceTools": true,
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Aboreto",
+          "name": "Aboreto",
+          "slug": "aboreto",
+          "fontFace": [
+            {
+              "fontFamily": "Aboreto",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/Aboreto-Regular.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Poppins",
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/Poppins-Regular.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "src": ["file:./assets/fonts/Poppins-Italic.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/Poppins-Bold.woff2"]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "fontStyle": "italic",
+              "src": ["file:./assets/fonts/Poppins-BoldItalic.woff2"]
+            }
+          ]
+        }
+      ]
+    },
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#000000",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#9DFF20",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#345C00",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#F6F6F6",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#0a2916",
+          "name": "British racing green",
+          "slug": "british-racing-green"
+        },
+        {
+          "color": "#eab308",
+          "name": "Bumblebee yellow",
+          "slug": "bumblebee-yellow"
+        }
+      ]
+    }
+  }
+}

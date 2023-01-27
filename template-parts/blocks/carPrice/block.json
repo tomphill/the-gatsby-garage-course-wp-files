@@ -1,0 +1,19 @@
+{
+  "name": "tgg/carprice",
+  "title": "Car price",
+  "description": "A block to render the car price",
+  "category": "the-gatsby-garage",
+  "keywords": ["price", "car", "amount"],
+  "icon": "money-alt",
+  "apiVersion": 2,
+  "acf": {
+    "renderTemplate": "./carPrice.php",
+    "mode": "preview",
+    "postTypes": ["car"]
+  },
+  "supports": {
+    "mode": false,
+    "align": false
+  },
+  "style": "file:./style.css"
+}
